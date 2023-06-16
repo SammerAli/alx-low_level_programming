@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - prinf id n is positive , negative or zero
