@@ -9,13 +9,16 @@ int main(void)
 {
 	int n = '0';
 
-	while (n <= '8')
+	while (n <= '9)
 	{
 		putchar(n);
-		n++;
+		if (n != '9')
+		{
 		putchar(',');
 		putchar(' ');
+		}
+		n++;
 	}
-	putchar('9');
+	putchar('\n');
 	return (0);
 }
