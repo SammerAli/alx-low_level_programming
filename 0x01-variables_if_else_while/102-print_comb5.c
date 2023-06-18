@@ -14,7 +14,7 @@ int main(void)
 		for (o = 0; o <= 99; o++)
 		{
 			if (n < o)
-				{
+			{
 					putchar((n / 10) + 48);
 					putchar((n % 10) + 48);
 					putchar(' ');
@@ -25,7 +25,7 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-				}
+			}
 		}
 	}
 	putchar('\n');
