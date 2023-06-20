@@ -10,7 +10,8 @@
 int _abs(int c)
 {
 	int x;
-	x = abs(c);
+
+	x = abs(c):
 
 	return (x);
 }
