@@ -5,21 +5,21 @@
  */
 int main(void)
 {
-	long int a, b, c, round;
+	long int i, a, b, round;
 
 	a = 1;
 	b = 2;
 
 
-	for (c = 1; c <= 50; c++)
+	for (i = 1; i <= 50; i++)
 	{
-		if (b != 20365011074)
+		if (a != 20365011074)
 		{
-			printf("%ld, ", b);
+			printf("%ld, ", a);
 		}
 		else
 		{
-			printf("%ld\n", b);
+			printf("%ld\n", a);
 		}
 		round = a + b;
 		a = b;
