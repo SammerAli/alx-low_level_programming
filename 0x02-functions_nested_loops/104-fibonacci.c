@@ -14,9 +14,9 @@ int main(void)
 
 	for (i = 1; i <= 91; i++)
 	{
-		printf("%lu", b);
+		printf(", %lu", b);
 		b += a;
-		a = b -a;
+		a = b - a;
 	}
 
 	a1 = a / 1000000000;
@@ -29,7 +29,7 @@ int main(void)
 		printf(", %lu", b1 + (b2 / 1000000000));
 		printf("%lu", b2 % 1000000000);
 		b1 += a1;
-		a1 = b1 -a1;
+		a1 = b1 - a1;
 		b2 += a2;
 		a2 = b2 - a1;
 	}
