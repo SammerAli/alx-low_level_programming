@@ -31,7 +31,7 @@ int main(void)
 		b1 += a1;
 		a1 = b1 - a1;
 		b2 += a2;
-		a2 = b2 - a1;
+		a2 = b2 - a2;
 	}
 	printf("\n");
 
