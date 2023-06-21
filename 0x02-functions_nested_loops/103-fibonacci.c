@@ -20,7 +20,7 @@ int main(void)
 		}
 		round = a + b;
 		a = b;
-		b = round
+		b = round;
 	}
 	printf("%lu\n", sum);
 
