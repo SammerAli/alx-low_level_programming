@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *add - multiply 2 numbers
+ *mul - multiply 2 numbers
  *@a: to be checked
  *@b: to be checked
  * Return: return multi
