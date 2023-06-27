@@ -10,7 +10,6 @@ void puts_half(char *str)
     int i;
     char *s;
     
-    s = "0123456789";
     for (i = strlen(s) / 2; i < strlen(s); i++)
     {
         putchar(s[i]);
