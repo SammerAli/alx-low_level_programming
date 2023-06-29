@@ -12,7 +12,20 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	strncat(dest, src, n);
+	int i, c;
+
+	i = 0;
+	c = 0;
+
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+	}
+	for (c = 0; src[c] != '\0' && c < n; c++)
+	{
+		dest[i] = src[c];
+		i++;
+	}
+	dest[i] = '\0';
 
 	return(dest);
 }
